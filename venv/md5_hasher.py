@@ -2,11 +2,11 @@ import hashlib
 import base64
 # import requests
 
-words = []
-md5hashes = []
+words = [] #number of words
+md5hashes = [] #number of md5 hashes
 # shahashes = []
-qpressed = False
-counter = 0
+qpressed = False #to stop loop
+counter = 0 #counter for troubleshoot
 
 # url = 'https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt'
 # f = f.get_file_contents(url, ref)
